@@ -7,9 +7,11 @@ import { HelloComponent } from './hello.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import {AngularMaterialModule} from './angular-material/angular-material.module';
+
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, FlexLayoutModule],
+  imports:      [ BrowserModule, FormsModule, FlexLayoutModule, AngularMaterialModule],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
